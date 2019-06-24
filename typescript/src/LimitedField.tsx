@@ -16,7 +16,7 @@ interface IOnChange {
     (event: React.ChangeEvent<HTMLInputElement>): void
 }
 
-class LimitedField extends React.Component<IProps> {
+class LimitedField extends React.Component<IProps, State> {
     constructor(props: IProps) {
         super(props)
         if (props.text) {
