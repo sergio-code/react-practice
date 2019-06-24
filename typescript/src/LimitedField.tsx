@@ -1,5 +1,4 @@
 import React from 'react'
-import { JSXElement } from '@babel/types'
 
 const initialState = {
     text: '',
